@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="name">Name:</label><br><br>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Email:</label><br><br>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="phoneNumber">Phone</label><br><br>
+        <input type="number" name="phoneNumber" id="phoneNumber"><br>
+
+        <label for="upload">Resume:</label><br><br>
+        <input type="file" name="upload" id="upload"><br>
+
+        <label for="exp">Experience(years):</label><br><br>
+        <input type="number" name="exp" id="exp" min="0" max="50"><br>
+
+        <fieldset>
+            <legend>Skills:</legend>
+
+            <input type="checkbox" name="check" id="check1"><br>
+            <label for="check1">HTML</label><br>
+            <input type="checkbox" name="check" id="check2"><br>
+            <label for="check2">CSS</label><br>
+            <input type="checkbox" name="check" id="check3"><br>
+            <label for="check3">Javascript</label><br>
+        </fieldset>
+        <br>
+
+        <label for="educationType">Highest Education:</label>
+        <select name="educationType" id="educationType">
+
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+
+        </select>
+
+        <p>Availability:</p> 
+        <input type="radio" name="avb" id="avb"><br>    
+        <label for="avb">Full-time</label><br>
+        <input type="radio" name="avb" id="avb"><br>
+        <label for="avb">Half-Time</label>
+        <br><br>
+        <label for="comments">Additional Comments:</label>
+        <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+        <button type="submit">Submit Application</button>
+
+    </form>
+</body>
+</html>
