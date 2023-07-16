@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+  color: white;
+}
+
+.first {
+  border: 3px solid black;
+  /* padding: 190px;
+  margin: 90px; */
+}
+
+h1 {
+  border: solid 2px pink;
+  /* width: 500px;
+  height: 200px; */
+  position: absolute;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
